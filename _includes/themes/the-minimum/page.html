@@ -1,0 +1,53 @@
+<article class="unit-article layout-page">
+	<div class="unit-inner unit-article-inner">
+		<div class="content">
+			<header>
+				<div class="unit-head">
+					<div class="unit-inner unit-head-inner">
+						<h1 class="h3 entry-title">{{ page.title }}</h1>
+					</div><!-- unit-inner -->
+				</div><!-- unit-head -->
+			</header>
+
+      <div class="bd">
+        <table align="center" class="" border="0" cellspacing="0" cellpadding="5">
+          <!-- 添加边栏  -->
+          <tr>
+            <td width="500px" rowspan="2">
+             	<div class="entry-content">
+			           {{ content }}
+            	</div><!-- entry-content -->
+            </td>
+            <td width="200px">
+               <div class="unit-sidebar">
+		              <div class="unit-sidebar-header"><span>分类</span></div>
+          		    <div class="unit-sidebar-content">
+		                {% for category in site.categories %}
+		                <a href="/categories.html#{{ category | first }}-ref">{{ category | first }}</a> ({{ category | last | size }})<br />
+		                {% endfor %}
+		              </div>
+		          </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div class="unit-sidebar">
+                <div class="unit-sidebar-header"><span>标签</span></div>
+          		  <div class="unit-sidebar-content">{% tag_cloud %}</div>
+		          </div>
+	          </td>
+          </tr>
+        </table>
+			</div><!-- bd -->
+
+			<footer class="unit-foot">
+				<div class="unit-inner unit-foot-inner">
+					<p class="gotop">
+						<a href="#page">回到顶部</a>
+					</p>
+				</div>
+			</footer>
+
+		</div><!-- content -->
+	</div><!-- unit-inner -->
+</article>

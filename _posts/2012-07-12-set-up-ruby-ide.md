@@ -50,11 +50,15 @@ RVM，是Ruby Version Manager的首字母简写，是个ruby版本管理器。�
 3 此时安装完成，同时已将Git安装上了
 
 ####安装Ruby
-1 通过命令可*rvm requirementsvp*可得出安装的依赖包，在安装Ruby前要将这些依赖包全部装上。
 
-2 基于rvm安装ruby，即*rvm install 1.9.3*（注意，此时可能会出错“RVM is not a function, selecting rubies with 'rvm use ...' will not work”，解决方法为修改.bashrc,将source ~/.rvm/scripts/rvm加入到.bashrc最后一行，最后输入“*source .bashrc*”这样使得刚添加的内容得以生效）。安装以后加入“source ~/.rvm/scripts/rvm”到“.bashrc”最后一行，此时可以进行版本检测输入“*rvm version*”。
+1 修改.rvm下的配置信息：*vi
+.rvm/config/db*，输入*/rubygems*查找rubygems所在行，修改对应的*http://*路径为*http://rubyforge.org/frs/download.php/76073/rubygems-1.8.24.tgz*。
 
-3 将ruby1.9.3设为默认的ruby版本，其命令为$ *rvm --default use 1.9.3*。
+2 通过命令可*rvm requirements*可得出安装的依赖包，在安装Ruby前要将这些依赖包全部装上。
+
+3 基于rvm安装ruby，即*rvm install 1.9.3*（注意，此时可能会出错“RVM is not a function, selecting rubies with 'rvm use ...' will not work”，解决方法为修改.bashrc,将source ~/.rvm/scripts/rvm加入到.bashrc最后一行，最后输入“*source .bashrc*”这样使得刚添加的内容得以生效）。安装以后加入“source ~/.rvm/scripts/rvm”到“.bashrc”最后一行，此时可以进行版本检测输入“*rvm version*”。
+
+4 将ruby1.9.3设为默认的ruby版本，其命令为$ *rvm --default use 1.9.3*。
 
 ####安装Janus
 1 安装vim： *sudo apt-get install vim* 。

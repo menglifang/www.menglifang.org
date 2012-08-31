@@ -24,7 +24,7 @@ Touch可以让你快速的开发出基于HTML5技术的移动应用，应用可�
 
 ###安装
 
-首先，解压SDK文件到你的项目目录。通常你的HTTP服务器应该能够访问该文件夹。例如，你应该能够从你的Web浏览器访问`http://localhost/sencha-touch-2.0.0-gpl`来查看Sencha Touch文档。
+首先，解压SDK文件到你的项目目录。通常应该配置HTTP服务器使其能够访问该文件夹。例如，你应该能够从你的Web浏览器访问`http://localhost/sencha-touch-2.0.0-gpl`来查看Sencha Touch文档。
 
 你还需要运行SDK Tools安装程序。 SDK Tools会将`sencha`这个命令行工具添加`path`下，这样就可以通过`sencha`命令生成一个新的应用程序模板。要检查你是否已经安装了SDK Tools，切换到Sencha Touch目录，并运行`sencha`命令。例如：
 

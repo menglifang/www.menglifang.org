@@ -53,7 +53,7 @@ task :deploy do |t, args|
     # rm_r "source/examples"
 
     File.open("CNAME", 'w') do |f|
-      f.write "hetao.im"
+      f.write "www.menglifang.org"
     end
 
     system "git add -A"

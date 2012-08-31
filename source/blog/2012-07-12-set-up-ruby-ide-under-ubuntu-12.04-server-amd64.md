@@ -1,7 +1,6 @@
 ---
-title: "搭建Ruby集成开发环境"
-description: "介绍Ubuntu-12.04 LTS X64下ruby环境的配置。"
-category: Technologies
+title: "Ubuntu 12.04 LTS AMD64下搭建Ruby集成开发环境"
+date: 2012/07/12
 tags: [ruby, rvm, vim, zsh, janus, ubuntu, javascript, rake, oh-my-zsh, git, github]
 ---
 

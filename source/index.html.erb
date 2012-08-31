@@ -1,0 +1,9 @@
+<% partial_for :sidebar, :blog_sidebar %>
+
+<% blog.articles.each_with_index do |article, i| %>
+  <article class="blog-post-summary">
+  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+  <%= article.summary %>
+  <%= link_to "Read more...", article %>
+  </article>
+<% end %>

@@ -12,6 +12,8 @@ tags: [ubuntu, linux, dfs]
 * 下载[mfs-1.6.25.tar.gz](http://www.moosefs.org/download.html)
 * 安装编译工具和依赖库
 
+READMORE
+
 ```bash
 apt-get install build-essential
 

@@ -156,10 +156,18 @@ class HighlightedHTML < Redcarpet::Render::HTML
 end
 
 set :markdown_engine, :redcarpet
-set :markdown, :layout_engine => :erb,
-  :fenced_code_blocks => true,
-  :lax_html_blocks => true,
-  :renderer => HighlightedHTML.new()
+set :markdown, :no_intra_emphasis => true,
+               :tables => true,
+               :fenced_code_blocks => true,
+               :autolink => true,
+               :strikethrough => true,
+               :lax_html_blocks => true,
+               :with_toc_data => true,
+               :superscript => true,
+               :smartypants => true,
+               :hard_wrap => true,
+               :layout_engine => :erb,
+               :renderer => HighlightedHTML.new()
 
 activate :directory_indexes
 

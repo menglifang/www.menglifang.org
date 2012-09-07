@@ -4,6 +4,10 @@ date: 2012/09/01
 tags: sencha touch, javascript
 ---
 
+**声明**：本文翻译自Sencha Touch官方文档。
+
+**英文原版地址**：[http://docs.sencha.com/touch/2-0/#!/guide/getting_started](http://docs.sencha.com/touch/2-0/#!/guide/getting_started)
+
 Sencha Touch 2有一个全新的类系统，其特点是能够按需动态地加载类。在开发和生产过程中，这能带来许多的好处。
   
 开发过程中，动态加载意味着你得到一个个文件的堆栈跟踪，这使得你能更容易调试应用程序中的问题。对于生产环境下，我们提供了一个构建工具，使你能够轻松地创建一个最小化的自定义构建，它只包括在应用程序中实际被使用的类，这意味着能为你的用户减少加载时间。

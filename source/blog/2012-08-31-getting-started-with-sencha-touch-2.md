@@ -54,7 +54,7 @@ $ sencha generate app GS ../GS
 
 接着让我们来检查你的应用程序是否能成功在Web浏览器中打开。假设你将SDK解压到了你的web根目录，那么你应该能够通过`http://localhost/GS`访问你生成的应用程序：
 
-//此处应添加一个web浏览器生成的页面
+![](/images/blog/201208310101.png)
 	
 ###代码构架的基本构成
 

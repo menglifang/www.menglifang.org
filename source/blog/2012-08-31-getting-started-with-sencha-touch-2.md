@@ -1,5 +1,5 @@
 ---
-title: Sencha Touch 2 入门
+title: Sencha Touch 2 入门指南
 date: 2012/08/31
 tags: sencha touch, javascript
 ---

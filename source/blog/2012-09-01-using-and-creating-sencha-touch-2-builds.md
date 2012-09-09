@@ -6,7 +6,7 @@ tags: sencha touch, javascript
 
 **声明**：本文翻译自Sencha Touch官方文档。
 
-**英文原版地址**：[http://docs.sencha.com/touch/2-0/#!/guide/getting_started](http://docs.sencha.com/touch/2-0/#!/guide/getting_started)
+**英文原版地址**：[http://docs.sencha.com/touch/2-0/#!/guide/building](http://docs.sencha.com/touch/2-0/#!/guide/building)
 
 Sencha Touch 2有一个全新的类系统，其特点是能够按需动态地加载类。在开发和生产过程中，这能带来许多的好处。
   
